@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../images/pipes.png');
+}
+
+.content{
+   
+    margin: 0 auto;
+    width: 960px;
+    
+    display: flex;
+    background-color: #4aaaa5;
+    align-items: center;
+    
+}
+
+.header{
+    background-color: #4aaaa5;
+    
+    height: 80px;
+    border-bottom: 2px solid gray;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+   
+
+
+p{
+    text-indent: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.riley{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0 0;
+    color: white;
+    width: fit-content;
+    background: #4aaaa5;
+    padding: 20px;
+    flex: auto;
+    }
+
+.link{
+    float: right; 
+  
+    margin-right:  40px;
+}
+
+.link a{
+    border-left: 2px solid gray;
+    padding:  0 5px;
+}
+
+.link a:first-child{
+    border-left: none;
+}
+
+/* .wrapper{
+    
+    position: relative;
+    margin:  150px auto 100px  ;
+    max-width: 960px;
+    box-sizing: border-box;
+    background-color: white;
+} */
+
+.wrapper input, label, textarea{
+    display: block;
+    width: 100%;
+}
+
+.input{
+    text-align: center;
+}
+
+
+.wrapper2{
+    position: relative;
+    margin:  150px auto 60px  ;
+    width: 960px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.wrapper2 h1{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.img1{
+    margin: 0 0 75px 135px;
+    width: 50%;
+    height: auto;
+}
+
+.wrapper img{
+    margin-right: 1em;
+    float: left;
+    width: 25%;
+    height: auto;
+    min-width: 200px;
+
+}
+.wrapper h1{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #666666;
+}
